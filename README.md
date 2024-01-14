@@ -2,7 +2,7 @@
 
 Source: https://github.com/uvipen/Flappy-bird-deep-Q-learning-pytorch/tree/master
 
-Train your model from scratch by running python train.py
+Train your model from scratch by running python train.py.
 Test your trained model by running python test.py
 
 + train.py is responsible for the training phase, where the DQN learns to play Flappy Bird through interactions with the environment.
