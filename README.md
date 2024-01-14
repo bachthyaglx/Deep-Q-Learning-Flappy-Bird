@@ -2,28 +2,10 @@
 
 Source: https://github.com/uvipen/Flappy-bird-deep-Q-learning-pytorch/tree/master
 
-## Introduction
+Train your model from scratch by running python train.py
+Test your trained model by running python test.py
 
-Here is the python source code for training an agent to play flappy bird. 
-<p align="center">
-  <img src="demo/flappybird.gif" width=600><br/>
-  <i>Result</i>
-</p>
++ train.py is responsible for the training phase, where the DQN learns to play Flappy Bird through interactions with the environment.
++ test.py focuses on evaluating the trained model by running it in the game environment without further updates to the model parameters. 
 
-## How to use the code
-
-* **Train your model from scratch** by running **python train.py**
-* **Test your trained model** by running **python test.py**
-
-## Trained models
-
-You could find trained model at **trained_models/flappy_bird**
- 
-## Requirements
-
-* **python 3.6 - 3.11**
-* **pygame**
-* **opencv-python**
-* **torch** 
-* **numpy**
-* **tensorboardX**
+![Deep_Reinforcement_Learning_Flappy_Bird](https://github.com/bachthyaglx/Deep-Q-Learning-Flappy-Bird/assets/62774638/b17368bc-1bee-48ed-a4f2-3bc6baa76f99)
